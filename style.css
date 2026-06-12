@@ -2129,3 +2129,17 @@ align-items: center;
 }
 
 
+/* Для всех элементов таймлайна - время на новой строке */
+.timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* Если хотите вернуть старый стиль для конкретных элементов */
+.timeline-item:first-child .timeline-header,
+.timeline-item:nth-child(2) .timeline-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
