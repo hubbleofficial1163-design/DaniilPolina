@@ -223,7 +223,7 @@ h1, h2, h3 {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: -40px !important;
     width: 100%;
     height: 1px;
     background: linear-gradient(90deg, transparent, #d4b89c, transparent);
@@ -244,7 +244,7 @@ h1, h2, h3 {
 .details-timeline {
     position: relative;
     margin: 0 auto;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .details-timeline::before {
